@@ -3,7 +3,7 @@ The major time spend by data scientist is on data pre-processing and make the da
 
 <ul>
 <li>Data Augmentation code has been demonstrated with signle image <br> </li>
-<li>How to import built-in data in python </li> <br>
-<li> Callbacks </li> <br>
+<li>How to import built-in data in python </li> 
+<li> Callbacks </li>
 <li> Plot Confusion Matrix </li>
 
