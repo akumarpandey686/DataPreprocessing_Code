@@ -1,0 +1,11 @@
+Convert a pdf file into a Word(.Docx) file using Python
+First install the library "pdf2docx" using "pip":
+pip install pdf2docx
+Then run this code:
+
+from pdf2docx import Converter
+in_pdf_file = 'aa.pdf'
+out_docx_file = 'aa.docx'
+converter = Converter(in_pdf_file)
+converter.convert(out_docx_file)
+converter.close()
