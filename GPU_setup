@@ -1,0 +1,8 @@
+#Run these command to whether check tf gpu is working or not 
+import tensorflow as tf
+print(tf.test.is_gpu_available())
+print(tf.test.is_built_with_cuda())
+
+#Check cuda is available for pytorch
+import torch
+print(torch.cuda.is_available())
